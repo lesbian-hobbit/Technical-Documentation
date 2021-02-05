@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Technical Documentation</title>
+<style>
+	html,
+body {
+  min-width: 290px;
+   color: black;
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 2;
+  margin:0;
+
+
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  bottom: 0;
+  width: 300px;
+  height: 100%;
+  border-radius: 20px;
+  border: 2px solid grey;
+  border-style: outset;
+  background-image: url(https://previews.123rf.com/images/katisa/katisa1904/katisa190400199/120830506-3d-render-abstract-futuristic-neon-background-pink-blue-fireworks-cosmic-landscape-glowing-triangula.jpg);
+ background-position: left;
+ background-repeat: round;
+}
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+    color: white;
+    font-style: bold;
+    text-shadow: 2px 2px black;
+
+    
+   
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+ color: white;
+    font-style: bold;
+    text-shadow: 2px 2px black;
+
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+    border-radius: 5px;
+  border: 2px solid grey;
+  border-style: inset;
+     color: white;
+    font-style: bold;
+    text-shadow: 2px 2px black;
+    
+
+}
+
+#navbar li {
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid white;
+  border-style: outset;
+      color: white;
+    font-style: bold;
+    text-shadow: 2px 2px black;
+    
+
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+    color: white;
+    font-style: bold;
+    text-shadow: 2px 2px black;
+    
+
+
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+    border-radius: 20px;
+  border: 2px solid white;
+  border-style: outset;
+     color: white;
+    font-style: bold;
+    text-shadow: 2px 2px black;
+     background-image: url(https://i.pinimg.com/originals/fb/4a/04/fb4a04a7a5851f4a5a97bb81b0672dc8.jpg);
+     background-repeat: round;
+
+
+}
+
+section article {
+   color: white;
+    font-style: bold;
+    text-shadow: 2px 2px black;
+  margin: 15px;
+  font-size: 0.96em;
+    border-radius: 10px;
+  border: 2px solid white;
+  border-style: inset;
+
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+    border-radius: 5px;
+  border: 2px solid grey;
+  border-style: inset;
+   color: white;
+    font-style: bold;
+    text-shadow: 2px 2px black;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+    border-radius: 10px;
+  border: 2px solid white;
+  border-style: inset;
+    color: white;
+    font-style: bold;
+    text-shadow: 2px 2px black;
+     background-image: url(https://i.pinimg.com/originals/fb/4a/04/fb4a04a7a5851f4a5a97bb81b0672dc8.jpg);
+     background-repeat: round;
+}
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+
+  #navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+
+  }
+}
+.footer {
+	position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:50px;
+  background: linear-gradient(to bottom, #cc33ff 0%, #ff99ff 100%);
+  color: white;
+  text-align: center;
+      color: white;
+    font-style: bold;
+    text-shadow: 2px 2px black;
+     background-image: url(https://i.pinimg.com/originals/fb/4a/04/fb4a04a7a5851f4a5a97bb81b0672dc8.jpg);
+     background-repeat: round;
+	
+</style>
+
+<body>
+	<nav id="navbar">
+  <header>AnimeDocumentation</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" href="#What_is_Anime"
+        >What is Anime</a
+      >
+    </li>
+    <li>
+      <a class="nav-link" href="#Manga_and_Light_Novel">Manga and Light Novel</a>
+    </li>
+    <li><a class="nav-link" href="#Etymology">Etymology</a></li>
+    <li><a class="nav-link" href="#History">History</a></li>
+    <li>
+      <a class="nav-link" href="#Attributes">Attributes</a>
+    </li>
+    <li><a class="nav-link" href="#Industry">Industry</a></li>
+    <li><a class="nav-link" href="#Globalization">Globalization</a></li>
+    <li><a class="nav-link" href="#Fan_response">Fan response</a></li>
+    <li><a class="nav-link" href="#Anime_style">Anime style</a></li>
+    <li>
+      <a class="nav-link" href="#Citations">Citations</a>
+    </li>
+    <li><a class="nav-link" href="#Japanese_gross">Japanese gross</a></li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+  
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>
+        Anime is hand-drawn and computer animation originating from Japan. In Japanese, anime, a term derived from the English word animation, describes all animated works, regardless of style or origin. Outside of Japan, anime refers specifically to animation produced in Japan, or to its common style, which has since been adopted by a minority of works produced in other countries.
+      </p>
+
+      <p>
+     The earliest commercial Japanese animations date to 1917. A characteristic art style emerged in the 1960s with the works of cartoonist Osamu Tezuka and spread in following decades, developing a large domestic audience. Anime is distributed theatrically, through television broadcasts, directly to home media, and over the Internet. 
+      </p>
+      <ul>
+        <li>
+         In addition to original works, anime are often adaptations of Japanese comics (manga), light novels, or video games. It is classified into numerous genres targeting various broad and niche audiences.
+        </li>
+        <li>
+          The anime industry consists of over 430 production companies, including major studios like Studio Ghibli, Sunrise, and Toei Animation. Since the 1980s, the medium has also seen international success with the rise of foreign dubbed and subtitled programming. As of 2016, Japanese anime accounted for 60% of the world's animated television shows
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="What_is_Anime">
+    <header>What is Anime</header>
+    <article>
+      <p>Anime is :</p>
+
+      <ul>
+        <li>
+          Anime is a diverse medium with distinctive production methods that have adapted in response to emergent technologies.
+        </li>
+        <li>It combines graphic art, characterization, cinematography, and other forms of imaginative and individualistic techniques.</li>
+        <li>
+         Diverse art styles are used, and character proportions and features can be quite varied, with a common characteristic feature being large and emotive eyes.
+        </li>
+      </ul>
+    </article>
+  </section>
+  <section class="main-section" id="Manga_and_Light_Novel">
+    <header>Manga and Light Novel</header>
+    <article>
+      <p>
+        Manga are comics or graphic novels originating from Japan. Most manga conform to a style developed in Japan in the late 19th century, and the form has a long prehistory in earlier Japanese art. The term manga is used in Japan to refer to both comics and cartooning.
+      </p>
+
+      <p>
+        A light novel is a style of Japanese young adult novel primarily targeting high school and middle school students. The term "light novel" is a wasei-eigo, or a Japanese term formed from words in the English language. Light novels are often called ranobe or, in English, LN.
+      </p>
+      <p>
+      	A Manga and Light novel is kinda the same but light novel first, and then gets converted into a manga, not the other way around. Or, in the case of a very popular novel, the transition can even be straight into an anime.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Etymology">
+    <header>Etymology</header>
+    <article>
+      As a type of animation, anime is an art form that comprises many genres found in other mediums; it is sometimes mistakenly classified as a genre itself.[5] In Japanese, the term anime is used to refer to all animated works, regardless of style or origin.
+      <code>English-language dictionaries typically define anime (US: /ˈænəmeɪ/, UK: /ˈænɪmeɪ/) as "a style of Japanese animation"[8] or as "a style of animation originating in Japan"
+      </code>
+      The etymology of the term anime is disputed. The English word "animation" is written in Japanese katakana as アニメーション (animēshon) and as アニメ (anime, pronounced [a.ɲi.me] (About this soundlisten)) in its shortened form.[1] Some sources claim that the term is derived from the French term for animation dessin animé ("cartoon", literally 'animated design'),[10] but others believe this to be a myth derived from the popularity of anime in France in the late 1970s and 1980s.
+    </article>
+  </section>
+  <section class="main-section" id="History">
+    <header>History</header>
+    <p style=" border-radius: 10px;border: 2px solid grey;border-style: inset;">
+      Animation in Japan began in the early 20th century, when filmmakers started to experiment with techniques pioneered in France, Germany, the United States, and Russia.[10] A claim for the earliest Japanese animation is Katsudō Shashin (c. 1907),[14] a private work by an unknown creator.
+    </p>
+    <p style=" border-radius: 10px;border: 2px solid grey;border-style: inset;">
+ 		In 1917, the first professional and publicly displayed works began to appear; animators such as Ōten Shimokawa, Seitarō Kitayama, and Jun'ichi Kōuchi (considered the "fathers of anime") produced numerous films, the oldest surviving of which is Kōuchi's Namakura Gatana.
+    <p style=" border-radius: 10px;border: 2px solid grey;border-style: inset;">
+    Many early works were lost with the destruction of Shimokawa's warehouse in the 1923 Great Kantō earthquake.[17]
+	By the mid-1930s animation was well-established in Japan as an alternative format to the live-action industry. It suffered competition from foreign producers, such as Disney, and many animators, including Noburō Ōfuji and Yasuji Murata, continued to work with cheaper cutout animation rather than cel animation.[18] Other creators, including Kenzō Masaoka and Mitsuyo Seo, nevertheless made great strides in technique, benefiting from the patronage of the government, which employed animators to produce educational shorts and propaganda.[19] In 1940, the government dissolved several artists' organizations to form the Shin Nippon Mangaka Kyōkai.[a][20] The first talkie anime was Chikara to Onna no Yo no Naka (1933), a short film produced by Masaoka.[21][22] The first feature-length anime film was Momotaro: Sacred Sailors (1945), produced by Seo with a sponsorship from the Imperial Japanese Navy.
+    </p>
+  </section>
+  <section class="main-section" id="Attributes">
+    <header>Attributes</header>
+    <article>
+      There are 3 attributes of Anime:
+      <p>
+        TECHNIQUE <code>Modern anime follows a typical animation production process, involving storyboarding, voice acting, character design, and cel production.</code>
+      </p>
+      <p>
+        CHARACTERS <code>Body proportions of human anime characters tend to accurately reflect the proportions of the human body in reality. The height of the head is considered by the artist as the base unit of proportion. Head heights can vary, but most anime characters are about seven to eight heads tall.[48] Anime artists occasionally make deliberate modifications to body proportions to produce super deformed characters that feature a disproportionately small body compared to the head; many super deformed characters are two to four heads tall. Some anime works like Crayon Shin-chan completely disregard these proportions, in such a way that they resemble caricatured Western cartoons.</code> 
+      </p>
+      <p>
+        MUSIC<code>The opening and credits sequences of most anime television episodes are accompanied by Japanese pop or rock songs, often by reputed bands. They may be written with the series in mind, but are also aimed at the general music market, and therefore often allude only vaguely or not at all to the themes or plot of the series. Pop and rock songs are also sometimes used as incidental music ("insert songs") in an episode, often to highlight particularly important scenes.</code>
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Industry">
+    <header>Industry</header>
+    <article>
+      <p>
+        The animation industry consists of more than 430 production companies with some of the major studios including Toei Animation, Gainax, Madhouse, Gonzo, Sunrise, Bones, TMS Entertainment, Nippon Animation, P.A.Works, Studio Pierrot and Studio Ghibli.[77] Many of the studios are organized into a trade association, The Association of Japanese Animations. There is also a labor union for workers in the industry, the Japanese Animation Creators Association. Studios will often work together to produce more complex and costly projects, as done with Studio Ghibli's Spirited Away.[77] An anime episode can cost between US$100,000 and US$300,000 to produce.
+      </p>
+
+      <p>
+        JIn 2001, animation accounted for 7% of the Japanese film market, above the 4.6% market share for live-action works.[77] The popularity and success of anime is seen through the profitability of the DVD market, contributing nearly 70% of total sales.[77] According to a 2016 article on Nikkei Asian Review, Japanese television stations have bought over ¥60 billion worth of anime from production companies "over the past few years", compared with under ¥20 billion from overseas.
+      </p>
+      <p>MARKETS
+      <code>Japan External Trade Organization (JETRO) valued the domestic anime market in Japan at ¥2.4 trillion ($24 billion), including ¥2 trillion from licensed products, in 2005.[95] JETRO reported sales of overseas anime exports in 2004 to be ¥2 trillion ($18 billion).[96] JETRO valued the anime market in the United States at ¥520 billion ($5.2 billion),[95] including $500 million in home video sales and over $4 billion from licensed products, in 2005</code></p>
+      <p>
+        Awards
+      </p>
+      <code>
+        The anime industry has several annual awards that honor the year's best works. Major annual awards in Japan include the Ōfuji Noburō Award, the Mainichi Film Award for Best Animation Film, the Animation Kobe Awards, the Japan Media Arts Festival animation awards, the Tokyo Anime Award and the Japan Academy Prize for Animation of the Year. In the United States, anime films compete in the Crunchyroll Anime Awards. There were also the American Anime Awards, which were designed to recognize excellence in anime titles nominated by the industry, and were held only once in 2006.[102] Anime productions have also been nominated and won awards not exclusively for anime, like the Academy Award for Best Animated Feature or the Golden Bear.</code>
+    </article>
+  </section>
+  <section class="main-section" id="Globalization">
+    <header>Globalization</header>
+    <article>
+      <p>
+        Anime has become commercially profitable in Western countries, as demonstrated by early commercially successful Western adaptations of anime, such as Astro Boy and Speed Racer. Early American adaptions in the 1960s made Japan expand into the continental European market, first with productions aimed at European and Japanese children, such as Heidi, Vicky the Viking and Barbapapa, which aired in various countries. Particularly Italy, Spain and France grew an interest into Japan's output, due to its cheap selling price and productive output. In fact, Italy imported the most anime outside of Japan.[103] These mass imports influenced anime popularity in South American, Arabic and German markets.
+      </p>
+
+      <p>
+        The beginning of 1980 saw the introduction of Japanese anime series into the American culture. In the 1990s, Japanese animation slowly gained popularity in America. Media companies such as Viz and Mixx began publishing and releasing animation into the American market.[105] The 1988 film Akira is largely credited with popularizing anime in the Western world during the early 1990s, before anime was further popularized by television shows such as Pokémon and Dragon Ball Z in the late 1990s.[106][107] The growth of the Internet later provided international audiences an easy way to access Japanese content.[93] Early on, online piracy played a major role in this, through over time legal alternatives appeared. This is especially the case with net services such as Netflix and Crunchyroll which have large catalogs in Western countries, although as of 2020 anime fans in many non-Western countries, such as India or Southeast Asia, have difficulty obtaining access to legal content, and therefore still turn to online piracy.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Fan_response">
+    <header>Fan response</header>
+    <article>
+      <p>
+        Anime clubs gave rise to anime conventions in the 1990s with the "anime boom", a period marked by increased popularity of anime.[111] These conventions are dedicated to anime and manga and include elements like cosplay contests and industry talk panels.[112] Cosplay, a portmanteau for "costume play", is not unique to anime and has become popular in contests and masquerades at anime conventions.
+      </p>
+
+      <code>japanese culture and words have entered English usage through the popularity of the medium, including otaku, an unflattering Japanese term commonly used in English to denote an obssessive fan of anime and manga</code>
+      <p>
+     Another word that has arisen describing obssessive fans in the United States is wapanese meaning
+      </p>
+
+      <p>
+         white individuals who want to be Japanese', or later known as weeaboo, individuals who demonstrate an obsession in Japanese anime subculture, a term that originated from abusive content posted on the popular bulletin board website 4chan.org
+      </p>
+
+      <p>
+       Anime enthusiasts have produced fan fiction and fan art, including computer wallpapers and anime music videos.
+      </p>
+
+      <code>As of the 2010s, many anime fans use online communities and databases such as MyAnimeList to discuss anime and track their progress watching respective series</code>
+      <code
+        >Too add more, many pirate sites have been removed recently in 2020 by the policy makers because of the creators products being pirated.</code
+      >
+    </article>
+  </section>
+  <section class="main-section" id="Anime_style">
+    <header>Anime style</header>
+    <article>
+      <p>One of the key points that made anime different from a handful of Western cartoons is the potential for visceral content. Once the expectation that the aspects of visual intrigue or animation being just for children is put aside, the audience can realize that themes involving violence, suffering, sexuality, pain, and death can all be storytelling elements utilized in anime as much as other types of media.</p>
+      <ul>
+        <li>
+          <p>styling has been inevitably the subject of both satire and serious creative productions.</p>
+          <ul>
+            <li>South Park's "Chinpokomon" and "Good Times with Weapons" episodes, Adult Swim's Perfect Hair Forever, and Nickelodeon's Kappa Mikey are Western examples of satirical depictions of Japanese culture and anime, but anime tropes have also been satirized by some anime, such as KonoSuba.</li>
+            <li>
+              Traditionally only Japanese works have been considered anime, but some works have sparked debate for blurring the lines between anime and cartoons, such as the American anime style production Avatar: The Last Airbender.
+            </li>
+            <li>These anime styled works have become defined as anime-influenced animation, in an attempt to classify all anime styled works of non-Japanese origin.[121] Some creators of these works cite anime as a source of inspiration, for example the French production team for Ōban Star-Racers that moved to Tokyo to collaborate with a Japanese production team.</li>
+            <li>anime is defined as a "style" rather than as a national product it leaves open the possibility of anime being produced in other countries,[120] but this has been contentious amongst fans, with John Oppliger stating, "The insistence on referring to original American art as Japanese "anime" or "manga" robs the work of its cultural identity."</li>
+            <li>A U.A.E.-Filipino produced TV series called Torkaizer is dubbed as the "Middle East's First Anime Show", and is currently in production[126] and looking for funding.[127] Netflix has produced multiple anime series in collaboration with Japanese animation studios,[128] and in doing so, has offered a more accessible channel for distribution to Western markets.</li>
+            <li>
+             The web-based series RWBY, produced by Texas-based company Rooster Teeth, is produced using an anime art style, and the series has been described as "anime" by multiple sources. For example, Adweek, in the headline to one of its articles, described the series as "American-made anime",[130] and in another headline, The Huffington Post described it as simply "anime", without referencing its country of origin.
+            </li>
+          </ul>
+        </li>
+
+        <li>In 2013, Monty Oum, the creator of RWBY, said "Some believe just like Scotch needs to be made in Scotland, an American company can't make anime.</li>
+      </ul>
+       I think that's a narrow way of seeing it. Anime is an art form, and to say only one country can make this art is wrong."[132] RWBY has been released in Japan with a Japanese language dub;[133] the CEO of Rooster Teeth, Matt Hullum, commented "This is the first time any American-made anime has been marketed to Japan. It definitely usually works the other way around, and we're really pleased about that."
+    </article>
+  </section>
+  <section class="main-section" id="Citations">
+    <header>Citations</header>
+    <article>
+      <p>Citations for this documentation</p>
+
+      <code> "Lexicon - Anime". Anime News Network. Archived from the original on August 30, 2020. Retrieved September 12, 2020.</code>
+      <code>
+        Craig 2000, pp. 139–140.
+      </code>
+    
+
+      <code>
+       Napier, Susan J. (2016). Anime from Akira to Howl's Moving Castle: Experiencing Contemporary Japanese Animation. St. Martin's Press. p. 10. ISBN 9781250117724.</code>
+      <code> Poitras 2000, p. 7.
+</code> 
+
+      <code>"Tezuka: The Marvel of Manga - Education Kit" (PDF). Art Gallery New South Wales. 2007. Archived from the original (PDF) on August 30, 2007. Retrieved October 28, 2007.</code>
+    </article>
+  </section>
+  <section class="main-section" id="Japanese_gross">
+    <header>Japanese gross</header>
+    <article>
+      
+
+      <code>Schwarzacher, Lukas (February 17, 2002). "Japan box office 'Spirited Away'". Variety. Archived from the original on August 26, 2014. Retrieved August 21, 2014.
+End of 2001: $227 million</code> 
+      <p>
+        Box Office Mojo. Archived from the original on November 29, 2014. Retrieved July 1, 2014.
+      </p>
+
+      <code>  Schwarzacher, Lukas (February 16, 2003). "H'wood eclipses local fare". Variety. Archived from the original on August 26, 2014. Retrieved August 21, 2014.
+Across 2001 and 2002: $270 million</code>
+      <p>
+      "Spirited Away (2002) – International Box Office Results". Box Office Mojo. Archived from the original on November 29, 2014. Retrieved July 1, 2014.
+      </p>
+
+      <ul>
+        <li>North American gross: $10,055,859</li>
+        <li>Japanese gross: $229,607,878 (March 31, 2002)</li>
+        <li> Other territories: $28,940,019</li>
+      </ul>
+      <p>
+       Schilling, Mark (May 16, 2008). "Miyazaki's animated pic to open this summer". Variety. Archived from the original on July 15, 2014. Retrieved July 2, 2014.
+As of 2008: $290 million
+      </p>
+    </article>
+  </section>
+  
+  <section class="main-section" id="Reference">
+   
+    <header class="footer">Reference</header>
+    <article>
+      <ul>
+        <li>
+          All the documentation and article in this page are taken from<a href="https://en.wikipedia.org/wiki/Anime"target="_blank">wikipedia</a>
+        </li>
+      </ul>
+    </article>
+  </section>
+  
+</main>
+
+</body>
+</head>
+</html>
